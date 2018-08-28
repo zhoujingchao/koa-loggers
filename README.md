@@ -19,6 +19,8 @@ app.use(koaLoggers(config))
 ctx.logger[0].error('log category','some messgae')
 ```
 
+[更多使用](https://github.com/log4js-node/log4js-node)
+
 ## 关于配置项
 
 - config.filename [string] 日志文件路径 默认值 './.tmp/application.log'
