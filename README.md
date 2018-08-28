@@ -29,7 +29,7 @@ ctx.logger[0].error('log category','some messgae')
 
 ```javascript
 function(logEvent) {
-  var time = dateFormat(logEvent.startTime, 'hh:mm:ss')
+  var time = dateFormat(logEvent.startTime, 'hh:mm:ss.S')
   var level = logEvent.level.levelStr
   var category = logEvent.data[0]
   var data = logEvent.data[1]
