@@ -24,7 +24,7 @@ ctx.logger[0].error('log category','some messgae')
 ## 可选配置项
 app.use(koaLoggers(config))
 
-- config.filename [string] 日志文件路径 默认值 './.tmp/application.log'
+- config.filename [string] 日志文件路径 默认值 `~/logs/${name}/application.log`
 - config.pattern [string] [日志分割格式](https://log4js-node.github.io/log4js-node/dateFile.html) 默认值 '_yyyy-MM-dd'
 - daysToKeep [Number] 日志保留天数，默认7天
 - config.formatter [function] 日志内容格式化函数 默认值如下
