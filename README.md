@@ -15,7 +15,9 @@ yarn add koa-loggers -S
 
 ```javascipt
 var koaLoggers = require('koa-loggers')
-app.use(koaLoggers(config))
+app.use(koaLoggers({
+  appname: 'xxxxxx'
+}))
 ctx.logger[0].error('log category','some messgae')
 ```
 
