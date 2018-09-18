@@ -21,7 +21,10 @@ ctx.logger[0].error('log category','some messgae')
 
 [更多使用](https://github.com/log4js-node/log4js-node)
 
-## 关于配置项
+## 兑吧专用配置项
+- config.appname [string] 应用名称
+
+## 其他可选配置项
 
 - config.filename [string] 日志文件路径 默认值 './.tmp/application.log'
 - config.pattern [string] [日志分割格式](https://log4js-node.github.io/log4js-node/dateFile.html) 默认值 '.yyyy-MM-dd'

@@ -1,12 +1,12 @@
 {
   "name": "koa-loggers",
-  "version": "0.2.2",
+  "version": "0.4.0",
   "main": "index.js",
   "license": "MIT",
   "repository": {
-	  "type" : "git",
-	  "url" : "https://github.com/TNT-Likely/koa-loggers.git"
-	},
+    "type" : "git",
+    "url" : "https://github.com/TNT-Likely/koa-loggers.git"
+  },
   "dependencies": {
     "log4js": "^3.0.5"
   }
